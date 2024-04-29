@@ -1,5 +1,5 @@
 import LikedButton from "./components/LikedButton";
-// import IronhackButton from "./components/IronhackButton";
+import IronhackButton from "./components/IronhackButton";
 
 function App() {
   return (
@@ -28,7 +28,9 @@ function App() {
         </div>
       </div>
 
-      <div style={{ margin: "40px 0" }}>{/* <IronhackButton /> */}</div>
+      <div style={{ margin: "40px 0" }}>
+        <IronhackButton />
+      </div>
     </>
   );
 }
